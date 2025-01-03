@@ -114,5 +114,5 @@ Follow these steps to clone the package, build it, and run the ROS2 node.
    Enter angular velocity Yaw (rad/s): 0.3
    
 - Illustration : 
-![Example GIF](images/illustration_rt2_part2)
+![Example GIF](images/illustration_rt2_part2.gif)
 
