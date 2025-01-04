@@ -29,12 +29,12 @@ This repository contains a ROS2 package `assignment2rt_part2` that allows you to
 ## File structure:
 
 ├── assignment_2_part2 <br>
-│   ├── setup.py       <br>         # Package setup file for ROS2
-│   ├── package.xml     <br>        # ROS2 package configuration
-│   ├── README.md        <br>       # Project documentation
-│   └── assignment_2_part2  <br>    # Python package for the ROS2 node
+│   ├── setup.py       <br>
+│   ├── package.xml     <br> 
+│   ├── README.md        <br>
+│   └── assignment_2_part2  <br> 
 │       ├── __init__.py   <br>
-│       └── move_robot_node.py <br> # Main ROS2 node for robot control
+│       └── move_robot_node.py <br>
 
      
 ## How to Make It Work
@@ -47,7 +47,7 @@ Follow these steps to clone the package, build it, and run the ROS2 node.
 1. **Clone the Robot Environment Package**:
    - First, clone the `robot_urdf` package into your workspace. This package contains the robot's description and environment for Gazebo and RViz.
      ```bash
-     cd ~/ros2_ws/src
+     cd ~/my_ros2_ws/src
      git clone https://github.com/CarmineD8/robot_urdf.git
      ```
    - Switch to the `ros2` branch:
@@ -57,7 +57,7 @@ Follow these steps to clone the package, build it, and run the ROS2 node.
      ```
 
 2. **Clone the Node Package**:
-   - Next, clone the `assignment_2_part2` package into your workspace:
+   - Next, clone the `assignment2rt_part2` package into your workspace:
      ```bash
      git clone https://github.com/Mohamedags/assignment2rt_part2
      ```
@@ -65,7 +65,7 @@ Follow these steps to clone the package, build it, and run the ROS2 node.
 3. **Build the Workspace**:
    - After cloning both packages, go to the root of your workspace and build it:
      ```bash
-     cd ~/ros2_ws
+     cd ~/my_ros2_ws
      colcon build
      ```
 
