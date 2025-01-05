@@ -7,8 +7,8 @@ This repository contains a ROS2 package `assignment2rt_part2` that allows you to
 ### Features:
 
 - User-friendly terminal interface for setting robot velocities.
-- Controls both linear (X, Y, Z) and angular (Roll, Pitch, Yaw) velocities.
-- Robot moves for exactly 5 seconds after the user inputs the desired velocities.
+- Controls both linear X and angular Yaw velocities.
+- Robot moves for exactly 10 seconds after the user inputs the desired velocities.
 - Supports continuous user input for multiple commands.
 
 ### Prerequisites
@@ -94,9 +94,9 @@ Follow these steps to clone the package, build it, and run the ROS2 node.
 1. **Set Velocities**:
    - After running the node, you’ll be prompted to enter the robot's linear and angular velocities.
 
-   - Input 6 values:
-     - **Linear Velocities**: X, Y, Z (in meters per second).
-     - **Angular Velocities**: Roll, Pitch, Yaw (in radians per second).
+   - Input 2 values:
+     - **Linear Velocity**: X (in meters per second).
+     - **Angular Velocity**: Yaw (in radians per second).
      
 2. **Set Velocities** Ask user if he wants to enter new velocities? (yes/no): yes -enter robot's velocities again-
    - After the robot stops, the program will ask: "Do you want to enter new velocities? (yes/no)"
@@ -107,12 +107,8 @@ Follow these steps to clone the package, build it, and run the ROS2 node.
    Example:
    ```bash
    Enter linear velocity X (m/s): 0.5
-   Enter linear velocity Y (m/s): 0.0
-   Enter linear velocity Z (m/s): 0.0
-   Enter angular velocity Roll (rad/s): 0.0
-   Enter angular velocity Pitch (rad/s): 0.0
    Enter angular velocity Yaw (rad/s): 0.3
-   
+   ```
 - Illustration : 
 ![Example GIF](images/illustration_rt2_part2.gif)
 
